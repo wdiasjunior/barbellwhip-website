@@ -102,7 +102,10 @@ main {
 
 }
 .intro_description {
-
+  /* margin-bottom: 16px; */
+}
+.intro_description:not(:last-of-type) {
+  margin-bottom: 0;
 }
 .intro_buttons_wrapper {
   display: flex;
@@ -150,7 +153,6 @@ main {
   border-top: 1px solid #eaecef;
 }
 .features_description {
-
   margin-bottom: 24px;
 }
 .features_items {
@@ -164,8 +166,8 @@ main {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  width: 340px;
-  max-width: 340px;
+  width: 360px;
+  max-width: 360px;
   height: 600px;
   max-height: 600px;
   border: 1px solid #eaecef;
@@ -186,16 +188,30 @@ main {
 
 }
 
+/* roadmap */
+.roadmap {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 24px 0;
+  border-bottom: 1px solid #eaecef;
+}
+
 /* contribute */
 .contribute {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 1px solid #eaecef;
 }
 
 /* footer */
 footer {
-  height: 120px;
-
-  /* background-color: #000; */
+  padding: 0 100px;
+  height: 80px;
 }
 
 @media only screen and (max-width: 700px) {

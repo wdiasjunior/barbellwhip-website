@@ -216,10 +216,10 @@ main {
 
 /* roadmap */
 .roadmap {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   padding: 24px 0;
   border-bottom: 1px solid #eaecef;
 }
@@ -232,6 +232,9 @@ main {
   align-items: center;
   padding: 24px 0;
   border-bottom: 1px solid #eaecef;
+}
+.contribute p:not(:last-of-type) {
+  margin-bottom: 0;
 }
 
 /* footer */

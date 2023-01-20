@@ -10,9 +10,10 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   /* overflow-y: scroll; */
-  background-color: #fff;
+  background-color: #191b1c;
   /* height: 500vh; */
   -webkit-font-smoothing: antialiased;
+  color: #e8e8e8;
 }
 a {
   text-decoration: none;
@@ -31,8 +32,8 @@ header {
   height: 60px;
   width: 100%;
   z-index: 20;
-  background-color: #fff;
-  border-bottom: 1px solid #eaecef;
+  background-color: #191b1c;
+  border-bottom: 1px solid #353a3c;
 }
 .header_left {
   display: flex;
@@ -76,7 +77,7 @@ header {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #000;
+  background-color: #e8e8e8;
   transform-origin: bottom right;
   transition: transform 0.20s ease-out;
 }
@@ -84,7 +85,7 @@ header {
 main {
   margin-top: 60px;
   min-height: fit-content;
-  background-color: #fff;
+  background-color: #191b1c;
   padding: 120px 100px 80px;
 }
 
@@ -133,14 +134,14 @@ main {
 }
 .intro_button_download {
   margin-right: 12px;
-  background-color: #476582;
-  border: 1px solid #476582;
-  color: #fff;
+  background-color: #256a99;
+  border: 1px solid #256a99;
+  color: #e8e6e3;;
 }
 .intro_button_user_guide {
-  background-color: #fff;
-  border: 2px solid #476582;
-  color: #000;
+  background-color: #395168;
+  border: 1px solid #395168;
+  color: #e8e6e3;;
 }
 
 /* features */
@@ -152,8 +153,8 @@ main {
   /* height: 1050px; */
   height: fit-content;
   padding: 24px 0;
-  border-bottom: 1px solid #eaecef;
-  border-top: 1px solid #eaecef;
+  border-bottom: 1px solid #353a3c;
+  border-top: 1px solid #353a3c;
 }
 .features_description {
   margin-bottom: 24px;
@@ -176,7 +177,7 @@ main {
   /* height: 600px; */
   height: fit-content;
   /* max-height: 600px; */
-  /* border: 1px solid #eaecef; */
+  /* border: 1px solid #353a3c; */
   margin-right: 22px;
   margin-bottom: 22px;
   padding: 20px;
@@ -222,7 +223,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 24px 0;
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid #353a3c;
 }
 
 /* contribute */
@@ -232,7 +233,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 24px 0;
-  border-bottom: 1px solid #eaecef;
+  border-bottom: 1px solid #353a3c;
 }
 .contribute p:not(:last-of-type) {
   margin-bottom: 0;

@@ -248,6 +248,23 @@ footer {
 @media only screen and (max-width: 700px) {
   .header_right {
     display: none;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 61px;
+    background-color: #191b1c;
+    border-bottom: 1px solid #353a3c;
+  }
+  .header_right nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 12px;
+    margin-left: 97px;
+  }
+  .header_right nav a {
+    margin-left: 0;
+    width: fit-content;
   }
   #menu_icon {
     display: flex;
@@ -260,6 +277,11 @@ footer {
     margin-right: 42px;
     cursor: pointer;
     background: transparent;
+    padding-top: 4px;
+  }
+
+  main {
+    padding-inline: 20px;
   }
 }
 

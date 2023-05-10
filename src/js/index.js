@@ -34,6 +34,24 @@ function featureImagesAnimation() {
   document.getElementById("feature_3_id" + feat_3_Img).classList.add("feature_item_img_active");
 }
 
+let isMenuOpen = false;
+function toggleMenu() {
+  if(isMenuOpen && window.innerWidth <= 700) {
+    isMenuOpen = false;
+    document.getElementsByClassName("header_right")[0].style.display = "none";
+  } else if(!isMenuOpen && window.innerWidth <= 700) {
+    isMenuOpen = true;
+    document.getElementsByClassName("header_right")[0].style.display = "flex";
+  }
+}
+
+window.addEventListener('click', function(e){
+  if(!document.getElementById("header").contains(e.target)) {
+    isMenuOpen = false;
+    document.getElementsByClassName("header_right")[0].style.display = "none";
+  }
+});
+
 window.onload = () => {
   setInterval(featureImagesAnimation, 4500);
 };

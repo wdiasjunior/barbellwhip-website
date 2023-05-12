@@ -191,6 +191,7 @@ main {
 .features_item_description {
   height: 60px;
   text-align: center;
+  margin-top: 0;
 }
 .feature_item_img_container {
   position: relative;
@@ -234,6 +235,7 @@ main {
   align-items: center;
   padding: 24px 0;
   border-bottom: 1px solid #353a3c;
+  text-align: center;
 }
 .contribute p:not(:last-of-type) {
   margin-bottom: 0;
@@ -282,6 +284,12 @@ footer {
 
   main {
     padding-inline: 20px;
+  }
+  .feature_item {
+    margin-right: 0px;
+  }
+  footer {
+    padding: 0 24px;
   }
 }
 

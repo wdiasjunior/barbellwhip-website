@@ -160,6 +160,9 @@ main {
   margin-bottom: 24px;
   text-align: center;
 }
+.feature_web_version_link {
+  text-decoration: underline;
+}
 .features_items {
   display: flex;
   flex-direction: row;

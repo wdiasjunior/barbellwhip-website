@@ -1,6 +1,9 @@
 name: 🦕 Deploy Docusaurus to GitHub Pages
 on: [push]
 
+permissions:
+  id-token: write
+
 jobs:
   deploy:
     environment:
@@ -15,6 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.1
+          cache: 'npm'
+          cache-dependency-path: /package-lock.json
       - name: Install dependencies
         run: npm i
       - name: Build

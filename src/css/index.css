@@ -54,9 +54,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-.header_logo {
-
+  width: 170px;
 }
 .header_title {
 
@@ -97,11 +95,13 @@ main {
   align-items: center;
   /* margin-bottom: 24px; */
 }
-.intro_logo {
-
+.svg_logo_wrapper {
+  width: 450px;
 }
 .intro_title {
-
+  opacity: 0 !important;
+  height: 0 !important;
+  margin: 10px;
 }
 .intro_description {
   /* margin-bottom: 16px; */
